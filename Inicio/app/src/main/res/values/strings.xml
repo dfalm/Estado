@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Inicio</string>
+    <string name="tv_correo">Correo</string>
+    <string name="tv_clave">Clave</string>
+    <string name="msg_fallo_login">Fallo al iniciar</string>
+    <string name="msg_fallo_registro">Fallo al registrar</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_central">Central</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="title_activity_central">Home</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="centralAdded">Agregado</string>
+    <string name="noData">No agregado</string>
+    <string name="msg_nombre">Estado</string>
+    <string name="msg_capital">Capital</string>
+    <string name="msg_poblacion">Poblacion</string>
+    <string name="msg_costas">Costas</string>
+    <string name="bt_agregar">Agregar</string>
+</resources>
