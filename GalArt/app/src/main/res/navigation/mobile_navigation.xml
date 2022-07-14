@@ -9,7 +9,14 @@
         android:id="@+id/nav_galart"
         android:name="com.galart.ui.galart.GalartFragment"
         android:label="@string/menu_galart"
-        tools:layout="@layout/fragment_galart" />
+        tools:layout="@layout/fragment_galart" >
+        <action
+            android:id="@+id/action_nav_galart_to_addEmpleadoFragment"
+            app:destination="@id/addEmpleadoFragment" />
+        <action
+            android:id="@+id/action_nav_galart_to_updateEmpleadoFragment"
+            app:destination="@id/updateEmpleadoFragment" />
+    </fragment>
 
     <fragment
         android:id="@+id/nav_gallery"
@@ -22,4 +29,24 @@
         android:name="com.galart.ui.slideshow.SlideshowFragment"
         android:label="@string/menu_slideshow"
         tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/addEmpleadoFragment"
+        android:name="com.galart.ui.galart.AddEmpleadoFragment"
+        android:label="@string/bt_agregar"
+        tools:layout="@layout/fragment_add_empleado" >
+        <action
+            android:id="@+id/action_addEmpleadoFragment_to_nav_galart"
+            app:destination="@id/nav_galart" />
+    </fragment>
+    <fragment
+        android:id="@+id/updateEmpleadoFragment"
+        android:name="com.galart.ui.galart.UpdateEmpleadoFragment"
+        android:label="@string/bt_actualizar">
+        <action
+            android:id="@+id/action_updateEmpleadoFragment_to_nav_galart"
+            app:destination="@id/nav_galart" />
+        <argument
+            android:name="empleado"
+            app:argType="com.galart.model.Empleado" />
+    </fragment>
 </navigation>

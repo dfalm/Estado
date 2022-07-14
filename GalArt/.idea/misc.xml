@@ -3,10 +3,18 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/documentos/movil/GalArt/app/src/main/res/drawable/ic_delete.xml" value="0.203" />
+        <entry key="..\:/documentos/movil/GalArt/app/src/main/res/drawable/ic_logoff.xml" value="0.203" />
         <entry key="..\:/documentos/movil/GalArt/app/src/main/res/layout/activity_main.xml" value="0.4" />
+        <entry key="..\:/documentos/movil/GalArt/app/src/main/res/layout/app_bar_principal.xml" value="0.2171875" />
         <entry key="..\:/documentos/movil/GalArt/app/src/main/res/layout/content_principal.xml" value="0.234375" />
+        <entry key="..\:/documentos/movil/GalArt/app/src/main/res/layout/empleado_fila.xml" value="0.6" />
+        <entry key="..\:/documentos/movil/GalArt/app/src/main/res/layout/fragment_add_empleado.xml" value="0.25" />
+        <entry key="..\:/documentos/movil/GalArt/app/src/main/res/layout/fragment_galart.xml" value="0.25" />
         <entry key="..\:/documentos/movil/GalArt/app/src/main/res/layout/fragment_home.xml" value="0.2" />
+        <entry key="..\:/documentos/movil/GalArt/app/src/main/res/layout/fragment_update_empleado.xml" value="0.25" />
         <entry key="..\:/documentos/movil/GalArt/app/src/main/res/menu/activity_main_drawer.xml" value="0.234375" />
+        <entry key="..\:/documentos/movil/GalArt/app/src/main/res/menu/delete_menu.xml" value="0.234375" />
         <entry key="..\:/documentos/movil/GalArt/app/src/main/res/menu/principal.xml" value="0.234375" />
       </map>
     </option>
